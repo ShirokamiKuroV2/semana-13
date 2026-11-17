@@ -7,12 +7,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mi-sitio-seo.onrender.com"),
+  metadataBase: new URL("https://semana-14-seo.onrender.com"),
   title: {
     default: "Portal Tech | SEO & Rendimiento",
     template: "%s | Portal Tech",
   },
   description: "Plataforma de alto rendimiento construida con Next.js.",
+  verification: {
+    google: "NrngtSE9quOTFfdhtCTIiwHBxMniQpeHOple0_UGBgI",
+  },
   openGraph: {
     siteName: "Portal Tech",
     locale: "es_PE",
