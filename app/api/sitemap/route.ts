@@ -6,7 +6,7 @@ interface SitemapItem {
 }
 
 export async function GET() {
-  const BASE_URL = "https://mi-sitio.com";
+  const BASE_URL = "https://semana-14-seo.onrender.com";
 
   // Rutas estáticas clave
   const staticRoutes: SitemapItem[] = [
